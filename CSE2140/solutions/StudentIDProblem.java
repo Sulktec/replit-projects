@@ -1,0 +1,19 @@
+import java.util.Scanner;  // Import the Scanner class
+class StudentIDProblem {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+
+    System.out.println("please enter your student ID");
+
+    int id = myObj.nextInt();
+
+     System.out.println( id + " is a valid student ID");
+
+
+   
+    
+
+
+  }
+}
+

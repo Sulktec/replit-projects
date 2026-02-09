@@ -1,0 +1,56 @@
+1. What are the three main types of variables used in Java and what are they used to store? 
+
+String stores text, int stores integers and double stores float values.
+
+2. What type of variable would you use to store your name? 
+
+A string.
+
+3. What type of variable would you use to store the square root of 2? 
+
+A double.
+
+4. What type of variable would you use to store your age? 
+
+int or Integer variable.
+
+5. Write a single line of code that will create a double precision variable called p and store 1.921 X 10-16 in it. 
+
+double p = 1.921 X 10-16;
+
+6. Write a single line of code that will create an integer variable called i and store 407 in it. 
+
+int i = 407;
+
+7. Write a single line of code that will create a String variable called my_name and store your name in it. 
+
+String my_name = Suleman;
+
+8. Write a line of code that will declare the variable count to be of type int. Don’t initialize.
+
+int number;
+
+9. Write a line of code that initializes the double precision variable bankBalance to 136.05. Assume this variable has already been declared. 
+
+bankBalance = 136.05;
+
+10. Which of the following are legal variable names? scooter13 139_scooter homer-5 ;mary public doubled double  ab c
+
+
+scooter13, 139_scooter, doubled.
+
+
+11. Which of the following is the most acceptable way of naming a variable. Multiple answers are possible. a. GroovyDude b. GROOVYDUDE c. groovyDude d. Groovydude e. groovy_dude f. groovydude 
+
+c and e.
+
+12. Comment on the legality of the following two lines of code. double dist = 1003; int alt = 1493.86; int num = 1_2_3;
+
+double dist = 1003; this line is legal though it isn't using a float.
+
+int alt = 1493.86; this is illegal because, this is storing a float into an integer.
+
+int num = 1_2_3; this is legal, underscores are allowed to be used as spaces in between numbers.
+
+
+

@@ -1,0 +1,4 @@
+i = 10, j = 3
+
+1. trule_false = (j > i)
+// (3 > 10) false

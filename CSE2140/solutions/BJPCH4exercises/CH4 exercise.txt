@@ -1,0 +1,71 @@
+Q1. 109 and then on the second line 104
+
+109 is printed because h originally stored 103 but in the print statement we increment by one using ++h which changed the value to 104 and then we add 5 to it. The value that is printed is 109.
+
+Second line prints only h which is 104 because on the first line we incremented h from 103 to 104.
+
+
+Q2. 
+
+1.
+j = ++j;
+2.
+j = j + 1;
+3.
+int k = j + 1;
+j = k;
+
+Q3. 1992.37
+
+It is 1992.37 because we intialized def to equal f which equals to 1992.37. Then we print def.
+
+Q5. 3
+
+b is 200 while a is 100. We then divide b by a which gets us 10 we store that in b. we then put b+1 in the print statement which prints out 3. Compund operator expanded b/=a;: b = b/a;.
+
+Q8. -22 because of bedmas we first multiply 8x4 then divide that value by 2. We then have 2 + 15 -40, which equals to -22.
+
+IGNORE STUFF ABOVE
+
+Q1. 
+
+int h = 90;
+int p = 7;
+
+System.out.println(h + p--);
+ 
+What will be printed? Go through your thought process, state when the variables change 
+
+Variables change only in the print statement. 
+System.out.println(h + p--);
+
+whats happening here is that h is adding into p and if we replace the variables with their actual values we get 90 + 7 then the print statement prints the product of that equation into the console. After that because there is p-- after the equation happens the value of p is subtracted by one making p = 6. should print 97.
+
+Q2.
+
+int h = 90;
+int p = 7;
+int s = 4
+
+System.out.println(++h + p + s++);
+ 
+What will be printed? Go through your thought process, state when the variables change
+
+in the print statement because of ++h, h is incremneted by on which makes h = 91. then h + p + s++ which adds h into p and s but s won't be incremneted because the ++ is after the variable which means it increments 
+                                                                                                ___
+after the equation is run. The print statment runs the equation 91 + 7 + 4 which should print ||102|| and then after s is incremented by 1 which makes s = 4.                                             ```
+
+Q3.
+int h = 90;
+int p = 7;
+int s = 4
+
+System.out.println(h-- + p + s++);
+ 
+What will be printed? Go through your thought process, state when the variables change
+
+because h-- the -- is after h it isn't considered in the equation but after it h = 89. then h (right now 90) is added into p (or 7) and added into s++ (which is 4 because the ++ is after the variable so in the equation s = 4 but after it s = 5). print statement should print out 101.
+
+
+
+
